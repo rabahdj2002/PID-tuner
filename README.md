@@ -2,7 +2,7 @@
 
 A real-time, interactive GUI for simulating and tuning **PID Controllers**. Designed to bridge the gap between control theory math and visual intuition.
 
-![PID Tuner Screenshot](screenshot.png)
+![PID Tuner Screenshot](screenshot1.png)
 
 ## 🚀 Overview
 
