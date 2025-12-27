@@ -30,7 +30,10 @@ pip install numpy matplotlib scipy
 
 1. Clone the repository (or download the pid_tuner.py file).
 2. Install dependencies using the command above.
-3. Run the application:Bashpython pid_tuner.py
+3. Run the application:
+```bash
+python pid_tuner.py
+```
 
 ## 🧠 The Math Behind It
 
