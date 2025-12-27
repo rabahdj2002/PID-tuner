@@ -37,7 +37,15 @@ python pid_tuner.py
 
 ## 🧠 The Math Behind It
 
-The simulator solves the closed-loop transfer function $T(s)$ for a standard feedback loop:The Plant $G(s)$: The physical system you defined (e.g., a motor, a heater).The Controller $C(s)$:$$C(s) = K_p + \frac{K_i}{s} + K_d s$$The Closed Loop:$$T(s) = \frac{C(s)G(s)}{1 + C(s)G(s)}$$The software then computes the Step Response (the system's reaction to a sudden change in desired position) over the selected time duration.
+The simulator solves the closed-loop transfer function $T(s)$ for a standard feedback loop:
+
+1.  **The Plant** $G(s)$: The physical system you defined (e.g., a motor, a heater).
+2.  **The Controller** $C(s)$:
+    $$C(s) = K_p + \frac{K_i}{s} + K_d s$$
+3.  **The Closed Loop**:
+    $$T(s) = \frac{C(s)G(s)}{1 + C(s)G(s)}$$
+
+The software then computes the **Step Response** (the system's reaction to a sudden change in desired position) over the selected time duration.
 
 ## 📝 Usage Example
 
