@@ -53,9 +53,9 @@ To simulate a "Bouncy" Mass-Spring-Damper system:
 1. Numerator: 1
 2. Denominator: 1 0.5 2 (Represents $1s^2 + 0.5s + 2$)
 3. Tune:
-- Increase $K_p$ to reach the target faster (will overshoot).
-- Increase $K_d$ to add "friction" and stop the bouncing.
-- Increase $K_i$ to fix steady-state error (if any).
+    - Increase $K_p$ to reach the target faster (will overshoot).
+    - Increase $K_d$ to add "friction" and stop the bouncing.
+    - Increase $K_i$ to fix steady-state error (if any).
 
 ## 👨‍💻 Developer
 Rabah Djebbes
