@@ -1,6 +1,8 @@
 # 🎛️ Interactive PID Control Dashboard
 
-A real-time, interactive GUI for simulating and tuning **PID Controllers**. Designed to bridge the gap between control theory math and visual intuition.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![SciPy](https://img.shields.io/badge/SciPy-signal-8CAAE6?logo=scipy) ![License](https://img.shields.io/badge/License-MIT-green)
+
+A real-time, interactive GUI for simulating and tuning **PID controllers** on any linear system. Type a transfer function, drag the $K_p$, $K_i$, $K_d$ sliders and watch the closed-loop step response update instantly, bridging control-theory math and visual intuition.
 
 ![PID Tuner Screenshot](screenshot1.png)
 
@@ -14,7 +16,7 @@ You can simulate **any linear system** by defining its Transfer Function coeffic
 
 * **Real-Time Tuning:** Adjust PID gains and watch the graph react immediately.
 * **Custom Plant Models:** Define any system transfer function $G(s)$ using numerator/denominator coefficients.
-* **Live Equation Preview:** Instantly sees the math representation of the system you are building (e.g., $\frac{1}{s^2 + 0.5s + 2}$).
+* **Live Equation Preview:** Instantly see the math representation of the system you are building (e.g., $\frac{1}{s^2 + 0.5s + 2}$).
 * **Robust Simulation:** Uses `scipy.signal` to handle complex differential equations behind the scenes.
 * **Safety Features:** "Confirm" button prevents crashes while typing coefficients; error handling for unstable/invalid systems.
 
@@ -57,5 +59,11 @@ To simulate a "Bouncy" Mass-Spring-Damper system:
     - Increase $K_d$ to add "friction" and stop the bouncing.
     - Increase $K_i$ to fix steady-state error (if any).
 
-## 👨‍💻 Developer
-Rabah Djebbes
+## 👨‍💻 Author
+
+**Rabah Djebbes** – Automation & Control Engineer (MSc Automatic Control and Industrial Computing)
+[LinkedIn](https://www.linkedin.com/in/rabahdjebbes) · [GitHub](https://github.com/rabahdj2002) · Rabahwork@gmail.com
+
+## 📄 License
+
+MIT – see [LICENSE](LICENSE).
