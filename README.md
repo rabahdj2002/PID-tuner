@@ -25,7 +25,13 @@ You can simulate **any linear system** by defining its Transfer Function coeffic
 You need **Python 3.x** and the following scientific libraries:
 
 ```bash
-pip install numpy matplotlib scipy
+pip install -r requirements.txt
+```
+
+Tests (math only — no display needed):
+
+```bash
+pip install -r requirements-dev.txt && pytest -q
 ```
 
 ## 🛠️ How to Run
